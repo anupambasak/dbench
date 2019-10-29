@@ -14,7 +14,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 1000Gi
+      storage: 200Gi
 ---
 apiVersion: batch/v1
 kind: Job
